@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC90CFC27798CFD006482DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC90CFB27798CFD006482DE /* AppDelegate.m */; };
+		4AC90CFF27798CFD006482DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC90CFE27798CFD006482DE /* SceneDelegate.m */; };
+		4AC90D0227798CFD006482DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC90D0127798CFD006482DE /* ViewController.m */; };
+		4AC90D0527798CFD006482DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC90D0327798CFD006482DE /* Main.storyboard */; };
+		4AC90D0727798CFF006482DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC90D0627798CFF006482DE /* Assets.xcassets */; };
+		4AC90D0A27798CFF006482DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC90D0827798CFF006482DE /* LaunchScreen.storyboard */; };
+		4AC90D0D27798CFF006482DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC90D0C27798CFF006482DE /* main.m */; };
+		4AC90D1627799101006482DE /* YBPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC90D1527799101006482DE /* YBPagerView.m */; };
+		4AC90D1C2779960C006482DE /* YBPagerListContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC90D1B2779960C006482DE /* YBPagerListContainerView.m */; };
+		4AC90D1F277997AB006482DE /* YBPagerViewMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC90D1E277997AB006482DE /* YBPagerViewMainScrollView.m */; };
+		4AC90D222779C066006482DE /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC90D212779C066006482DE /* ContainerViewController.m */; };
+		87F30384D159D43CE9375283 /* libPods-YBPagerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE23F9CD1C725813C6F80666 /* libPods-YBPagerView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26DD695053C265EB3C9A7504 /* Pods-YBPagerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBPagerView.debug.xcconfig"; path = "Target Support Files/Pods-YBPagerView/Pods-YBPagerView.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC90CF727798CFD006482DE /* YBPagerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBPagerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC90CFA27798CFD006482DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AC90CFB27798CFD006482DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AC90CFD27798CFD006482DE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4AC90CFE27798CFD006482DE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4AC90D0027798CFD006482DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AC90D0127798CFD006482DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AC90D0427798CFD006482DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AC90D0627798CFF006482DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AC90D0927798CFF006482DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AC90D0B27798CFF006482DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC90D0C27798CFF006482DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AC90D1427799101006482DE /* YBPagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPagerView.h; sourceTree = "<group>"; };
+		4AC90D1527799101006482DE /* YBPagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBPagerView.m; sourceTree = "<group>"; };
+		4AC90D1A2779960C006482DE /* YBPagerListContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPagerListContainerView.h; sourceTree = "<group>"; };
+		4AC90D1B2779960C006482DE /* YBPagerListContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPagerListContainerView.m; sourceTree = "<group>"; };
+		4AC90D1D277997AB006482DE /* YBPagerViewMainScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPagerViewMainScrollView.h; sourceTree = "<group>"; };
+		4AC90D1E277997AB006482DE /* YBPagerViewMainScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBPagerViewMainScrollView.m; sourceTree = "<group>"; };
+		4AC90D202779C066006482DE /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		4AC90D212779C066006482DE /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		D244025BBC5CDF9903A8BFFC /* Pods-YBPagerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBPagerView.release.xcconfig"; path = "Target Support Files/Pods-YBPagerView/Pods-YBPagerView.release.xcconfig"; sourceTree = "<group>"; };
+		EE23F9CD1C725813C6F80666 /* libPods-YBPagerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YBPagerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC90CF427798CFD006482DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F30384D159D43CE9375283 /* libPods-YBPagerView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F8DFD4B8B3D5377E4ACAE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26DD695053C265EB3C9A7504 /* Pods-YBPagerView.debug.xcconfig */,
+				D244025BBC5CDF9903A8BFFC /* Pods-YBPagerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4AC90CEE27798CFD006482DE = {
+			isa = PBXGroup;
+			children = (
+				4AC90CF927798CFD006482DE /* YBPagerView */,
+				4AC90CF827798CFD006482DE /* Products */,
+				11F8DFD4B8B3D5377E4ACAE0 /* Pods */,
+				D9784DE4D92134FE5368060A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC90CF827798CFD006482DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC90CF727798CFD006482DE /* YBPagerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC90CF927798CFD006482DE /* YBPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				4AC90CFA27798CFD006482DE /* AppDelegate.h */,
+				4AC90CFB27798CFD006482DE /* AppDelegate.m */,
+				4AC90CFD27798CFD006482DE /* SceneDelegate.h */,
+				4AC90CFE27798CFD006482DE /* SceneDelegate.m */,
+				4AC90D0027798CFD006482DE /* ViewController.h */,
+				4AC90D0127798CFD006482DE /* ViewController.m */,
+				4AC90D202779C066006482DE /* ContainerViewController.h */,
+				4AC90D212779C066006482DE /* ContainerViewController.m */,
+				4AC90D13277990CA006482DE /* YBPagerView */,
+				4AC90D0327798CFD006482DE /* Main.storyboard */,
+				4AC90D0627798CFF006482DE /* Assets.xcassets */,
+				4AC90D0827798CFF006482DE /* LaunchScreen.storyboard */,
+				4AC90D0B27798CFF006482DE /* Info.plist */,
+				4AC90D0C27798CFF006482DE /* main.m */,
+			);
+			path = YBPagerView;
+			sourceTree = "<group>";
+		};
+		4AC90D13277990CA006482DE /* YBPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				4AC90D1427799101006482DE /* YBPagerView.h */,
+				4AC90D1527799101006482DE /* YBPagerView.m */,
+				4AC90D1A2779960C006482DE /* YBPagerListContainerView.h */,
+				4AC90D1B2779960C006482DE /* YBPagerListContainerView.m */,
+				4AC90D1D277997AB006482DE /* YBPagerViewMainScrollView.h */,
+				4AC90D1E277997AB006482DE /* YBPagerViewMainScrollView.m */,
+			);
+			path = YBPagerView;
+			sourceTree = "<group>";
+		};
+		D9784DE4D92134FE5368060A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE23F9CD1C725813C6F80666 /* libPods-YBPagerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC90CF627798CFD006482DE /* YBPagerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC90D1027798CFF006482DE /* Build configuration list for PBXNativeTarget "YBPagerView" */;
+			buildPhases = (
+				D00E0AFA1EE093A6CADCEDE3 /* [CP] Check Pods Manifest.lock */,
+				4AC90CF327798CFD006482DE /* Sources */,
+				4AC90CF427798CFD006482DE /* Frameworks */,
+				4AC90CF527798CFD006482DE /* Resources */,
+				0EFC3278F4AAB09E58EBBA49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBPagerView;
+			productName = YBPagerView;
+			productReference = 4AC90CF727798CFD006482DE /* YBPagerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC90CEF27798CFD006482DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4AC90CF627798CFD006482DE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 4AC90CF227798CFD006482DE /* Build configuration list for PBXProject "YBPagerView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AC90CEE27798CFD006482DE;
+			productRefGroup = 4AC90CF827798CFD006482DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC90CF627798CFD006482DE /* YBPagerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC90CF527798CFD006482DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC90D0A27798CFF006482DE /* LaunchScreen.storyboard in Resources */,
+				4AC90D0727798CFF006482DE /* Assets.xcassets in Resources */,
+				4AC90D0527798CFD006482DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EFC3278F4AAB09E58EBBA49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YBPagerView/Pods-YBPagerView-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YBPagerView/Pods-YBPagerView-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YBPagerView/Pods-YBPagerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00E0AFA1EE093A6CADCEDE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YBPagerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC90CF327798CFD006482DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC90D1C2779960C006482DE /* YBPagerListContainerView.m in Sources */,
+				4AC90D0227798CFD006482DE /* ViewController.m in Sources */,
+				4AC90D1627799101006482DE /* YBPagerView.m in Sources */,
+				4AC90D1F277997AB006482DE /* YBPagerViewMainScrollView.m in Sources */,
+				4AC90CFC27798CFD006482DE /* AppDelegate.m in Sources */,
+				4AC90D0D27798CFF006482DE /* main.m in Sources */,
+				4AC90D222779C066006482DE /* ContainerViewController.m in Sources */,
+				4AC90CFF27798CFD006482DE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AC90D0327798CFD006482DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC90D0427798CFD006482DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AC90D0827798CFF006482DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC90D0927798CFF006482DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AC90D0E27798CFF006482DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AC90D0F27798CFF006482DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC90D1127798CFF006482DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DD695053C265EB3C9A7504 /* Pods-YBPagerView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JEAGCUN8WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YBPagerView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.YBPagerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AC90D1227798CFF006482DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D244025BBC5CDF9903A8BFFC /* Pods-YBPagerView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JEAGCUN8WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YBPagerView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.YBPagerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC90CF227798CFD006482DE /* Build configuration list for PBXProject "YBPagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC90D0E27798CFF006482DE /* Debug */,
+				4AC90D0F27798CFF006482DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC90D1027798CFF006482DE /* Build configuration list for PBXNativeTarget "YBPagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC90D1127798CFF006482DE /* Debug */,
+				4AC90D1227798CFF006482DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC90CEF27798CFD006482DE /* Project object */;
+}
