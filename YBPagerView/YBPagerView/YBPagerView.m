@@ -48,28 +48,6 @@ YBPagerListContainerViewDelegate
     return self;
 }
 
-- (void)setDefaultSelectedIndex:(NSInteger)defaultSelectedIndex {
-    _defaultSelectedIndex = defaultSelectedIndex;
-
-    self.listContainerView.defaultSelectedIndex = defaultSelectedIndex;
-}
-
-- (void)setRefreshPosition:(YBPagerViewRefreshPosition)refreshPosition
-{
-    _refreshPosition = refreshPosition;
-    self.mainScrollView.bounces = refreshPosition == YBPagerViewRefreshPositionOuter;
-}
-
-- (void)setPinSectionHeaderVerticalOffset:(NSInteger)pinSectionHeaderVerticalOffset
-{
-    _pinSectionHeaderVerticalOffset = pinSectionHeaderVerticalOffset;
-    
-    CGFloat categoryHeight = self.categoryViewHeight + pinSectionHeaderVerticalOffset;
-    [self.listContainerView mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.height.equalTo(self.mas_height).offset(-categoryHeight);
-    }];
-}
-
 - (void)resizeHeaderViewHeightWithAnimatable:(BOOL)animatable duration:(NSTimeInterval)duration curve:(UIViewAnimationCurve)curve
 {
     self.headerViewHeight = [self.delegate headerViewHeightInPagerView:self];
@@ -172,6 +150,28 @@ YBPagerListContainerViewDelegate
     }else {
         _categoryView = [UIView new];
     }
+}
+
+- (void)setDefaultSelectedIndex:(NSInteger)defaultSelectedIndex {
+    _defaultSelectedIndex = defaultSelectedIndex;
+
+    self.listContainerView.defaultSelectedIndex = defaultSelectedIndex;
+}
+
+- (void)setRefreshPosition:(YBPagerViewRefreshPosition)refreshPosition
+{
+    _refreshPosition = refreshPosition;
+    self.mainScrollView.bounces = refreshPosition == YBPagerViewRefreshPositionOuter;
+}
+
+- (void)setPinSectionHeaderVerticalOffset:(NSInteger)pinSectionHeaderVerticalOffset
+{
+    _pinSectionHeaderVerticalOffset = pinSectionHeaderVerticalOffset;
+    
+    CGFloat categoryHeight = self.categoryViewHeight + pinSectionHeaderVerticalOffset;
+    [self.listContainerView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.height.equalTo(self.mas_height).offset(-categoryHeight);
+    }];
 }
 
 #pragma mark - lazyloads

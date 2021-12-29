@@ -14,7 +14,7 @@
 
 @required
 /**
- 返回tableHeaderView的高度，因为内部需要比对判断，只能是整型数
+ 返回headerView的高度，因为内部需要比对判断，只能是整型数
  */
 - (NSUInteger)headerViewHeightInPagerView:(YBPagerView *)pagerView;
 
