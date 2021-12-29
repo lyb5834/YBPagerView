@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "YBPagerView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "根据JXPagingView优化而来，适配了无障碍，优化了部分api"
   s.description  = "根据JXPagingView优化而来，适配了无障碍，优化了部分api"
   s.homepage     = "https://github.com/lyb5834/YBPagerView.git"
   s.license      = "MIT"
   s.author       = { "lyb" => "lyb5834@126.com" }
-  s.source       = { :git => "https://github.com/lyb5834/YBPagerView.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://gitee.com/lyb5834/YBPagerView.git", :tag => s.version.to_s }
   s.source_files  = "YBPagerView/YBPagerView/*.{h,m}"
   s.requires_arc = true
   s.dependency 'Masonry'

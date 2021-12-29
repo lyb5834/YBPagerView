@@ -155,6 +155,25 @@ YBPagerListContainerViewDelegate
     [self.listContainerView reloadData];
 }
 
+#pragma mark - setter
+- (void)setHeaderContainerView:(UIView *)headerContainerView
+{
+    if (headerContainerView) {
+        _headerContainerView = headerContainerView;
+    }else {
+        _headerContainerView = [UIView new];
+    }
+}
+
+- (void)setCategoryView:(UIView *)categoryView
+{
+    if (categoryView) {
+        _categoryView = categoryView;
+    }else {
+        _categoryView = [UIView new];
+    }
+}
+
 #pragma mark - lazyloads
 - (YBPagerViewMainScrollView *)mainScrollView
 {
