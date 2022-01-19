@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YBPagerView"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "根据JXPagingView优化而来，主要适配了无障碍，优化了部分api"
   s.description  = "根据JXPagingView优化而来，适配了无障碍，优化了部分api"
   s.homepage     = "https://github.com/lyb5834/YBPagerView.git"

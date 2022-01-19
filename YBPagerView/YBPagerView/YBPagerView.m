@@ -331,6 +331,18 @@ YBPagerListContainerViewDelegate
 
 @implementation YBPagerView (UISubclassingHooks)
 
+- (BOOL)accessibilityScroll:(UIAccessibilityScrollDirection)direction
+{
+    //解决无障碍模式下选中子视图无法三指滑上去的问题
+    if (direction == UIAccessibilityScrollDirectionDown) {
+        if (self.mainScrollView.contentOffset.y < self.mainScrollViewMaxContentOffsetY) {
+            [self.mainScrollView setContentOffset:CGPointMake(0, self.mainScrollViewMaxContentOffsetY) animated:YES];
+            return YES;
+        }
+    }
+    return NO;
+}
+
 - (void)preferredProcessListViewDidScroll:(UIScrollView *)scrollView {
     switch (self.refreshPosition) {
         case YBPagerViewRefreshPositionOuter:
